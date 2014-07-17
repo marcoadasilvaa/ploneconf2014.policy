@@ -1,0 +1,27 @@
+id: aggregator
+title: Noticias
+description: Noticias del Sitio
+presentation: False
+tableContents: False
+sort_on: effective
+sort_reversed: True
+limit: 1000
+customViewFields: Title
+  Creator
+  Type
+  ModificationDate
+subject: 
+relatedItems: 
+location: 
+language: es
+effectiveDate: None
+expirationDate: None
+creation_date: 2014/07/15 10:44:57.772599 GMT-0430
+modification_date: 2014/07/15 10:44:57.772737 GMT-0430
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+Content-Type: text/html
+
