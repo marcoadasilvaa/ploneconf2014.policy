@@ -25,6 +25,7 @@ setup(name='ploneconf2014.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.api',
           'plone.app.contenttypes',
           'collective.geo.bundle[dexterity]',
           'wildcard.foldercontents',
