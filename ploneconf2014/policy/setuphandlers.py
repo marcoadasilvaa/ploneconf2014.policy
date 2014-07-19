@@ -8,15 +8,14 @@ logger = logging.getLogger(PROJECTNAME)
 
 def remove_defaults_nav(portal):
     '''Remove defaults navegations and contents'''
-
     items_removable = ['news', 'events', 'Members', 'front-page']
     for item in items_removable:
-     if hasattr(portal, item):
-     try:
-     api.content.delete(obj=portal[item])
-     logger.info("Deleted {0} item".format(item))
-     except AttributeError:
-     logger.info("No {0} item detected. Hmm... strange. Continuing....".format(item))
+        if hasattr(portal, item):
+            try:
+                api.content.delete(obj=portal[item])
+                logger.info("Deleted {0} item".format(item))
+            except AttributeError:
+                logger.info("No {0} item detected. Hmm... strange. Continuing....".format(item))
 
 def create_defaults_contents(portal):
     '''Create defaults navegations and contents'''
