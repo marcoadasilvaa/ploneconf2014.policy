@@ -7,7 +7,7 @@ Package de tipo Policy para Plone 4.3.
 Pruebas
 ======================
 
-[![Build Status](https://travis-ci.org/adamculp/api-consumer.svg?branch=master)](https://travis-ci.org/adamculp/api-consumer)
+[![Build Status](https://travis-ci.org/markmarco16/ploneconf2014.policy.svg?branch=master)](https://travis-ci.org/markmarco16/ploneconf2014.policy)
 
 
 Autor(es)
