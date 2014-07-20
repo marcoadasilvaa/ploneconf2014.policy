@@ -1,5 +1,3 @@
-.. -*- coding: utf-8 -*-
-
 Plone Conf 2014 Policy
 ======================
 
@@ -9,13 +7,7 @@ Package de tipo Policy para Plone 4.3.
 Pruebas
 ======================
 
-.. image:: https://travis-ci.org/markmarco16/ploneconf2014.policy.svg?branch=master
-   :alt: Travis-CI badge
-   :target: https://travis-ci.org/markmarco16/ploneconf2014.policy
-
-.. image:: https://travis-ci.org/markmarco16/ploneconf2014.policy/badge.png?branch=master
-   :alt: Coveralls badge
-   :target: https://travis-ci.org/markmarco16/ploneconf2014.policy?branch=master
+[![Build Status](https://travis-ci.org/adamculp/api-consumer.svg?branch=master)](https://travis-ci.org/adamculp/api-consumer)
 
 
 Autor(es)
